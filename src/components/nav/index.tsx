@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import { BiLogoGmail } from "react-icons/bi";
+import { BiLogoGmail, BiLogoWhatsapp } from "react-icons/bi";
 import { CiHome } from "react-icons/ci";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
@@ -27,6 +27,9 @@ const Nav = () => {
           </li>
           <li className="text-2xl text-muted">
             <BiLogoGmail />
+          </li>
+          <li className="text-xl text-muted">
+            <BiLogoWhatsapp />
           </li>
         </ul>
 

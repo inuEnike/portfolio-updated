@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Header = () => {
@@ -12,14 +13,26 @@ const Header = () => {
       </h2>
 
       <p className="text-sm text-muted font-semibold">
-        Imperium — I design and build reliable software systems using Node.js,
-        Next.js, and modern web technologies.
+        Imperium — I build scalable backend systems and web applications using
+        Node.js, Express, and Next.js. Based in Nigeria, open to internships and
+        remote opportunities.
       </p>
 
       <div className="flex items-center gap-8 my-4">
-        <button className="border text-sm px-7 py-3 border-muted rounded-full cursor-pointer">
-          View Resume
-        </button>
+        <a href="/INU_GEORGE_ENIKE_CV.pdf" download={true}>
+          <button className="border text-sm px-7 py-3 border-muted rounded-full cursor-pointer">
+            Download Resume
+          </button>
+        </a>
+        <a
+          href="/INU_GEORGE_ENIKE_CV.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className="border text-sm px-7 py-3 border-muted rounded-full cursor-pointer">
+            View Resume
+          </button>
+        </a>
       </div>
       <hr className="my-12 text-muted " />
     </header>

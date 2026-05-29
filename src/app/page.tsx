@@ -8,7 +8,27 @@ import React from "react";
 export const metadata = {
   title: "Imperium | Full-Stack Engineer - Inu George Enike",
   description:
-    "Full-stack Enginner in Nigeria building scalable backend systems and web applications with Next.js and Node.js.",
+    "Full-stack developer in Nigeria building scalable backend systems and web applications with Next.js and Node.js.",
+
+  keywords: [
+    "Imperium",
+    "Inu George Enike",
+    "Full stack developer Nigeria",
+    "Backend developer Nigeria",
+    "Node.js developer",
+    "Express.js developer",
+    "JavaScript developer",
+    "API developer",
+    "Software engineer Nigeria",
+    "Remote backend developer",
+    "REST API development",
+    "System design",
+    "Redis",
+    "MongoDB",
+    "PostgreSQL",
+    "JWT authentication",
+  ],
+
   icons: {
     icon: [
       { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
@@ -22,15 +42,16 @@ export const metadata = {
       },
     ],
   },
+
   openGraph: {
-    title: "Imperium | Full-Stack Developer",
+    title: "Imperium | Full-Stack Engineer - Inu George Enike",
     description:
       "Imperium (Inu George Enike) builds scalable backend systems and web applications.",
-    url: "https://your-domain.com",
+    url: "https://inugeorge.vercel.app",
     siteName: "Imperium Portfolio",
     images: [
       {
-        url: "/favicon.ico",
+        url: "/og-image.png",
         width: 1200,
         height: 630,
         alt: "Imperium Portfolio",
@@ -48,7 +69,7 @@ const Home = () => {
       <section className="my-10">
         <Header />
         <About />
-        <Projects/>
+        <Projects />
       </section>
     </section>
   );
