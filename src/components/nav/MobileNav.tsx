@@ -35,7 +35,7 @@ const MobileNav = () => {
         </li>
         <li className="text-xl text-muted">
           <a
-            href="https://linkedin.com/in/inu-enike"
+            href="https://www.linkedin.com/in/inu-enike-90797434a/"
             rel="noopener noreferrer"
             target="_blank"
           >

@@ -36,7 +36,7 @@ const Nav = () => {
           </li>
           <li className="text-2xl text-muted">
             <a
-              href="https://linkedin.com/in/inu-enike"
+              href="https://www.linkedin.com/in/inu-enike-90797434a/"
               rel="noopener noreferrer"
               target="_blank"
             >
