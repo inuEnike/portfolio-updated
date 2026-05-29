@@ -5,7 +5,7 @@ import { FaArrowTrendUp } from "react-icons/fa6";
 
 const Projects = () => {
   return (
-    <section>
+    <section id="projects">
       <div className="">
         <h2 className="text-2xl md:text-4xl font-bold">Projects</h2>
         <div className="my-10 grid grid-cols-1 md:grid-cols-2 gap-7">
