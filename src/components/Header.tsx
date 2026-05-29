@@ -12,7 +12,7 @@ const Header = () => {
         Full-Stack Engineer
       </h2>
 
-      <p className="text-sm text-muted font-semibold">
+      <p className="text-sm text-muted font-semibold leading-7">
         Imperium — I build scalable backend systems and web applications using
         Node.js, Express, and Next.js. Based in Nigeria, open to internships and
         remote opportunities.
