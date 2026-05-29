@@ -11,7 +11,7 @@ const Projects = () => {
         <div className="my-10 grid grid-cols-1 md:grid-cols-2 gap-7">
           {projects.map((project, key) => (
             <div
-              className="bg-surface p-5 rounded-md flex flex-col gap-5"
+              className="bg-surface p-5 rounded-md flex flex-col gap-5 hover:border-accent hover:border border-transparent transition-all ease-in-out duration-700 cursor-pointer"
               key={key}
             >
               <div className="flex justify-between items-center">
