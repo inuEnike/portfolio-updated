@@ -8,6 +8,7 @@ import {
 } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
+import { Analytics } from "@vercel/analytics/next";
 
 const sorceSans3 = Source_Sans_3({
   variable: "--font-source-sans-3",
@@ -49,7 +50,10 @@ export default function RootLayout({
           }),
         }}
       />
-      <body className="">{children}</body>
+      <body className="">
+        <Analytics />
+        {children}
+      </body>
     </html>
   );
 }

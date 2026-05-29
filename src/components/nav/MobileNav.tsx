@@ -16,19 +16,49 @@ const MobileNav = () => {
         </li>
         <li className="text-xs text-muted">|</li>
         <li className="text-xl text-muted">
-          <FaGithub />
+          <a
+            href="https://github.com/inuEnike"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <FaGithub />
+          </a>
         </li>
         <li className="text-xl text-muted">
-          <FaXTwitter />
+          <a
+            href="https://x.com/Imperium04"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <FaXTwitter />
+          </a>
         </li>
         <li className="text-xl text-muted">
-          <FaLinkedinIn />
+          <a
+            href="https://linkedin.com/in/inu-enike"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <FaLinkedinIn />
+          </a>
         </li>
         <li className="text-xl text-muted">
-          <BiLogoGmail />
+          <a
+            href="mailto:imperium.dev01"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <BiLogoGmail />
+          </a>
         </li>
         <li className="text-xl text-muted">
-          <BiLogoWhatsapp />
+          <a
+            href="https://wa.me/2349012113050"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <BiLogoWhatsapp />
+          </a>
         </li>
       </ul>
     </nav>

@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import Contact from "@/components/Contact";
 import Header from "@/components/Header";
 import Nav from "@/components/nav";
 import MobileNav from "@/components/nav/MobileNav";
@@ -70,6 +71,7 @@ const Home = () => {
         <Header />
         <About />
         <Projects />
+        <Contact />
       </section>
     </section>
   );
