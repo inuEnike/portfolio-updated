@@ -25,6 +25,12 @@ export default function RootLayout({
       className={` ${sorceSans3.variable} h-full antialiased`}
       suppressHydrationWarning
     >
+      <head>
+        <meta
+          name="google-site-verification"
+          content="aswlCwP_vjH1tTrkhQOav4t1bhewj5U2kzRmDodIfO8"
+        />
+      </head>
       <Script
         id="structured-data"
         type="application/ld+json"
