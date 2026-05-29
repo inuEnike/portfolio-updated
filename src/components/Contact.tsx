@@ -20,8 +20,16 @@ const Contact = () => {
           reach out for collaborations, projects, or opportunities.
         </p>
         <div className="flex items-center gap-3 mb-4">
-          <FaPhoneAlt className="text-xl" />
-          <RiWhatsappLine className="text-2xl" />
+          <a href="tel:+2349036252432">
+            <FaPhoneAlt className="text-xl" />
+          </a>
+          <a
+            href="https://wa.me/2349012113050"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <RiWhatsappLine className="text-2xl" />
+          </a>
         </div>
       </div>
       <hr className="my-12 text-muted " />
