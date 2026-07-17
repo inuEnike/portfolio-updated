@@ -10,7 +10,7 @@ const About = () => {
       <div className="md:w-[80%] flex flex-col gap-5">
         <p className="leading-7">
           I build scalable backend systems, APIs, and modern web applications
-          using Node.js, Express, MongoDB, and Redis. I’m interested in system
+          using Node.js, Express, MongoDB || SQL, and Redis. I’m interested in system
           design, performance optimization, and production-grade architecture.
         </p>
 
