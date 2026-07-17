@@ -23,11 +23,13 @@ const About = () => {
       <div className="flex flex-wrap gap-3 text-sm text-accent">
         <span>TypeScript</span>
         <span>Node.js</span>
-        <span>Express.js</span>
         <span>Next.js</span>
         <span>Tailwind CSS</span>
+        <span>Express.js</span>
         <span>Redis</span>
+          <span>SQL</span>
         <span>MongoDB</span>
+
       </div>
       <hr className="my-12 text-muted " />
     </section>
