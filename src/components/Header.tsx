@@ -1,10 +1,9 @@
-import Link from "next/link";
 import React from "react";
 
 const Header = () => {
   return (
     <header className="flex flex-col gap-4">
-      <p className="md:text-md text-sm uppercase text-muted">Hi, I'm</p>
+      <p className="md:text-md text-sm uppercase text-muted">Hi, I&#39;m</p>
 
       <h1 className="text-4xl md:text-6xl font-bold">Inu George Enike</h1>
 

@@ -5,8 +5,9 @@ import Nav from "@/components/nav";
 import MobileNav from "@/components/nav/MobileNav";
 import Projects from "@/components/Projects";
 import React from "react";
+import {Metadata} from "next";
 
-export const metadata = {
+export const metadata:Metadata = {
   title: "Imperium | Full-Stack Engineer - Inu George Enike",
   description:
     "Full-stack developer in Nigeria building scalable backend systems and web applications with Next.js and Node.js.",
@@ -26,7 +27,7 @@ export const metadata = {
     "System design",
     "Redis",
     "MongoDB",
-    "PostgreSQL",
+    "Postgres",
     "JWT authentication",
   ],
 
