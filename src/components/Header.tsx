@@ -12,9 +12,9 @@ const Header = () => {
       </h2>
 
       <p className="text-sm text-muted font-semibold leading-7">
-        Imperium — I build scalable backend systems and web applications using
-        Node.js, Express, and Next.js. Based in Edo state, Nigeria. Open to internships and
-        remote opportunities.
+        Imperium - I build scalable backend systems and modern web applications
+        using Node.js, Express, Next.js, React, and TypeScript. Based in Edo
+        State, Nigeria. Open to internships and remote opportunities.
       </p>
 
       <div className="flex items-center gap-8 my-4">
@@ -33,7 +33,8 @@ const Header = () => {
           </button>
         </a>
       </div>
-      <hr className="my-12 text-muted " />
+
+      <hr className="my-12 text-muted" />
     </header>
   );
 };
