@@ -25,7 +25,9 @@ const Projects = () => {
                   )}
                   {project.live && (
                     <p className="text-xs ">
-                      <Link href={project.live}>Live</Link>
+                      <Link target="_blank" href={project.live}>
+                        Live
+                      </Link>
                     </p>
                   )}
                 </div>

@@ -1,36 +1,32 @@
-import React from "react";
+import { FaArrowTurnDown } from "react-icons/fa6";
+import Link from "next/link";
 
 const About = () => {
   return (
     <section className="flex flex-col gap-7 text-sm text-muted" id="about">
       <h2 className="font-semibold uppercase">
-        Full-Stack Engineer focused on backend systems
+        Full-Stack Engineer building modern applications
       </h2>
 
       <div className="md:w-[80%] flex flex-col gap-5">
         <p className="leading-7">
-          I build scalable backend systems, APIs, and modern web applications
-          using Node.js, Express, MongoDB || SQL, and Redis. I’m interested in system
-          design, performance optimization, and production-grade architecture.
+          I build modern web applications and scalable backend systems using
+          TypeScript, Node.js, Express.js, React, Next.js, PostgreSQL, MongoDB,
+          and Redis. I’m particularly interested in backend architecture, API
+          design, databases, performance, and building reliable software that
+          can scale.
         </p>
 
         <p className="leading-7">
-          Currently seeking internship or entry-level full-stack/backend roles,
-          including remote opportunities.
+          I’m open to opportunities where I can apply my engineering skills to
+          real products, solve meaningful problems, and build software that
+          delivers measurable value.
         </p>
       </div>
-
-      <div className="flex flex-wrap gap-3 text-sm text-accent">
-        <span>TypeScript</span>
-        <span>Node.js</span>
-        <span>Next.js</span>
-        <span>Tailwind CSS</span>
-        <span>Express.js</span>
-        <span>Redis</span>
-          <span>SQL</span>
-        <span>MongoDB</span>
-
-      </div>
+      <Link href={"#projects"} className="flex gap-2 items-center justify-end">
+        <p className="">See My Work</p>
+        <FaArrowTurnDown />
+      </Link>
       <hr className="my-12 text-muted " />
     </section>
   );

@@ -10,56 +10,56 @@ const Nav = () => {
     <nav className="my-10 border md:block hidden sticky top-0 z-10 border-white/5 bg-background py-3 px-3 rounded-full">
       <ul className="flex items-center gap-6 justify-between">
         <li className="flex items-center gap-6">
-          <Link href="/" className="text-2xl">
-            <CiHome />
+          <Link href="/" className="text-sm">
+            Imperium
           </Link>
           <span className="text-xs text-muted">|</span>
         </li>
         <ul className="flex items-center gap-6">
           <li className="text-2xl text-muted">
-            <a
+            <Link
               href="https://github.com/inuEnike"
               rel="noopener noreferrer"
               target="_blank"
             >
               <FaGithub />
-            </a>
+            </Link>
           </li>
           <li className="text-2xl text-muted">
-            <a
+            <Link
               href="https://x.com/Imperium04"
               rel="noopener noreferrer"
               target="_blank"
             >
               <FaXTwitter />
-            </a>
+            </Link>
           </li>
           <li className="text-2xl text-muted">
-            <a
+            <Link
               href="https://www.linkedin.com/in/inu-enike-90797434a/"
               rel="noopener noreferrer"
               target="_blank"
             >
               <FaLinkedinIn />
-            </a>
+            </Link>
           </li>
           <li className="text-2xl text-muted">
-            <a
+            <Link
               href="mailto:imperium.dev01"
               rel="noopener noreferrer"
               target="_blank"
             >
               <BiLogoGmail />
-            </a>
+            </Link>
           </li>
           <li className="text-2xl text-muted">
-            <a
+            <Link
               href="https://wa.me/2349012113050"
               rel="noopener noreferrer"
               target="_blank"
             >
               <BiLogoWhatsapp />
-            </a>
+            </Link>
           </li>
         </ul>
 

@@ -51,7 +51,7 @@ export default function RootLayout({
           }),
         }}
       />
-      <body className="">
+      <body className=" scroll-smooth">
         <Analytics />
         <SpeedInsights />
         {children}

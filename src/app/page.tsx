@@ -5,12 +5,15 @@ import Nav from "@/components/nav";
 import MobileNav from "@/components/nav/MobileNav";
 import Projects from "@/components/Projects";
 import React from "react";
-import {Metadata} from "next";
+import { Metadata } from "next";
+import Skills from "@/components/Skills";
+import { FaArrowTurnUp } from "react-icons/fa6";
+import Home from "@/Home/Home";
 
 export const metadata: Metadata = {
   title: "Inu George Enike | Frontend Engineer",
   description:
-    "Inu George Enike is a Frontend Engineer from Nigeria specializing in React, Next.js, TypeScript, and scalable web applications.",
+    "Inu George Enike is a Full stack Engineer from Nigeria specializing in React, Next.js, TypeScript, and scalable web applications.",
 
   keywords: [
     "Inu George Enike",
@@ -91,19 +94,8 @@ export const metadata: Metadata = {
     follow: true,
   },
 };
-const Home = () => {
-  return (
-    <section className="md:w-200 lg:w-215  not-lg:mx-3 m-auto ">
-      <Nav />
-      <MobileNav />
-      <section className="my-10">
-        <Header />
-        <About />
-        <Projects />
-        <Contact />
-      </section>
-    </section>
-  );
+const HomePage = () => {
+  return <Home />;
 };
 
-export default Home;
+export default HomePage;
