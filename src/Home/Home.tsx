@@ -36,7 +36,7 @@ const Home = () => {
       </section>
       {showScrollTop && (
         <button
-          className="fixed right-0 z-10 bottom-0 p-7 cursor-pointer"
+          className="fixed right-0 z-10 bottom-0 p-7 mb-12 cursor-pointer"
           onClick={() => {
             window.scrollTo({ top: 0, behavior: "smooth" });
           }}
